@@ -78,6 +78,9 @@ build:
     expire_in: 1 hour
     paths:
       - .
+  only:
+    - master
+    - dev
   tags:
     - docker
 
@@ -90,6 +93,9 @@ test:
     - sonar-scanner -Dsonar.host.url=${SONAR_URL} -Dsonar.login=${SONAR_LOGIN} -Dsonar.branch=${CI_COMMIT_REF_NAME} -Dsonar.projectVersion=${SONAR_VERSION}
   dependencies:
     - build
+  only:
+    - master
+    - dev
   tags:
     - docker
 
