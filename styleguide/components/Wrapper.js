@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import Provider from 'react-redux/lib/components/Provider';
 import PropTypes from 'prop-types';
-import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
-import reducer from '../../src/components/reducer';
+import { createStore, applyMiddleware, compose } from 'redux';
+import { IntlProvider } from 'react-intl';
+import { translation } from '../../package.json';
+// import reducer from '../../src/components/reducer';
 
 export default class Wrapper extends Component { // eslint-disable-line react/prefer-stateless-function
   static propTypes = {
@@ -27,7 +29,7 @@ export default class Wrapper extends Component { // eslint-disable-line react/pr
       // other store enhancers if any
     );
 
-    const store = createStore(combineReducers({ 'bs.demo': reducer }), enhancer);
+    const store = createStore(() => {}, enhancer);
     this.setState({
       store,
     });
@@ -37,7 +39,9 @@ export default class Wrapper extends Component { // eslint-disable-line react/pr
   render() {
     return (
       <Provider store={this.state.store}>
-        {this.props.children}
+        <IntlProvider locale={translation.locale}>
+          {this.props.children}
+        </IntlProvider>
       </Provider>
     );
   }
