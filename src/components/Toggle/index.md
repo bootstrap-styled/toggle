@@ -1,4 +1,47 @@
-You can use it with `react-intl`:
+### Usage without `react-inl`
+
+You will need to install without the optional dependencies.
+
+```bash
+$ npm install $PACAKAGE_NAME --no-optional
+``` 
+ 
+Test to see if everything works. 
+
+```bash
+$ npm list
+```
+
+Make sure you have no errors.
+
+```bash
+$ npm shrinkwrap
+```
+
+That will lock down the dependencies for the packages. 
+
+That way npm install will look into npm-shrinkwrap.json before trying to install dependencies.
+
+You can read more about it here [https://docs.npmjs.com/cli/shrinkwrap][1]
+
+
+  [1]: https://docs.npmjs.com/cli/shrinkwrap
+
+
+This is how you use it:
+
+```js
+initialState = {
+  value: 'en',  
+};
+<Toggle 
+  value={state.value}
+  values={['fr', 'en']} 
+  onToggle={(event) => setState({ value: event.target.value })} 
+/>
+```
+
+### Usage with `react-intl`
 
 ```js
 const { defineMessages, IntlProvider } = require('react-intl');
@@ -23,19 +66,6 @@ initialState = {
     onToggle={(event) => setState({ value: event.target.value })} 
   />
 </IntlProvider>
-```
-
-or without it:
-
-```js
-initialState = {
-  value: 'en',  
-};
-<Toggle 
-  value={state.value}
-  values={['fr', 'en']} 
-  onToggle={(event) => setState({ value: event.target.value })} 
-/>
 ```
 
 For example, this is how you can use it to create a `LocaleToggle` that work with **react-redux**:

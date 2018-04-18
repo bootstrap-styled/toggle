@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 ## [?NEXT?] - ????-??-??
 
-- TODO: write changelog before preparing next tag
+- Improve documentation for usage without `react-intl`.
 
 ## [v0.0.2] - 2018-04-18
 
