@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [?NEXT?] - ????-??-??
+## [v0.0.5] - 2018-04-19
 
 - Fixing UMD build by adding to external react-intl.
 
