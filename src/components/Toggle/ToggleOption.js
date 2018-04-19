@@ -23,7 +23,7 @@ try {
 
 /**
  * This component is automatically used when using `<Toggle />`
- * If you need a different option tag, instead just pass the prop `optionTag` of `<Toggle />`.
+ * If you need a different option tag, instead just pass the prop `optionTag` to the `<Toggle />` component.
  */
 const ToggleOption = ({
   tag: Tag,
