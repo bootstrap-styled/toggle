@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-styled-toggle",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "Toggle option made with bootstrap and optionaly use react-intl or any other ui component",
   "main": "lib/index.js",
   "jsnext:main": "dist/bootstrap-styled-toggle.es.js",
@@ -45,20 +45,22 @@
     "url": "https://module.kopaxgroup.com/bootstrap-styled/bootstrap-styled-toggle/issues"
   },
   "files": [
-    "CODE_OF_CONDUCT.md",
     "LICENSE.md",
     "dist",
-    "internals",
     "lib",
     "bin"
   ],
   "keywords": [
-    ""
+    "bootstrap",
+    "bootstrap-styled",
+    "styled",
+    "styled-components",
+    "react"
   ],
   "authors": [
     "Dimitri Kopriwa <dimitri.kopriwa@yeutech.com>"
   ],
-  "license": "SEE LICENSE IN LICENSE.md",
+  "license": "MIT",
   "eslintConfig": {
     "parser": "babel-eslint",
     "extends": "airbnb",
