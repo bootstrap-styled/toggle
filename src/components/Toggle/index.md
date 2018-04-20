@@ -44,6 +44,7 @@ initialState = {
 ### Usage with `react-intl`
 
 ```js
+const { Form } = require('bootstrap-styled/lib');
 const { defineMessages, IntlProvider } = require('react-intl');
 const messages = defineMessages({
   fr: {
@@ -59,12 +60,14 @@ initialState = {
   value: 'en',  
 };
 <IntlProvider locales="en" messages={messages}>
-  <Toggle 
-    value={state.value}
-    values={['fr', 'en']} 
-    messages={messages}
-    onToggle={(event) => setState({ value: event.target.value })} 
-  />
+  <Form>
+    <Toggle 
+      value={state.value}
+      values={['fr', 'en']} 
+      messages={messages}
+      onToggle={(event) => setState({ value: event.target.value })} 
+    />
+  </Form>
 </IntlProvider>
 ```
 
