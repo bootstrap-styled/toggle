@@ -28,9 +28,11 @@ bootstrap-styled-toggle npm package.
 ## Documentation
 
   - View [Markdown documentation](docs)
-  - View bootstrap-styled-toggle [HTML documentation](https://bootstrap-styled.yeutech.com/bootstrap-styled-toggle) *(require access)*
+  - View bootstrap-styled-toggle [HTML documentation](https://bootstrap-styled.yeutech.com/bootstrap-styled-toggle)
   - View rollup-umd [HTML documentation](https://dev-tools.yeutech.com/rollup-umd) *(require access)*
 
 ## License
 
-Copyright (c) 2018 Yeutech Company Limited. For more information `contact@yeutech.com`. Made with [rollup-umd](https://module.kopaxgroup.com/dev-tools/rollup-umd/tags/0.8.9) 0.8.9
+Licensed under the MIT License, Copyright © 2017-present Yeutech Company Limited.
+
+See [LICENSE](LICENSE.md) for more information.

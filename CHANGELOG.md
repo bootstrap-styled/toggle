@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 ## [?NEXT?] - ????-??-??
 
+- MIT Licensing.
+
+## [v0.0.5] - 2018-04-19
+
 - Fixing UMD build by adding to external react-intl.
 
 ## [v0.0.4] - 2018-04-19
