@@ -31,14 +31,17 @@ You can read more about it here [https://docs.npmjs.com/cli/shrinkwrap][1]
 This is how you use it:
 
 ```js
+const { Form } = require('bootstrap-styled/lib');
 initialState = {
   value: 'en',  
 };
-<Toggle 
-  value={state.value}
-  values={['fr', 'en']} 
-  onToggle={(event) => setState({ value: event.target.value })} 
-/>
+<Form>
+  <Toggle 
+    value={state.value}
+    values={['fr', 'en']} 
+    onToggle={(event) => setState({ value: event.target.value })} 
+  />
+</Form>
 ```
 
 ### Usage with `react-intl`
@@ -88,7 +91,13 @@ export class LocaleToggle extends React.PureComponent { // eslint-disable-line r
   render() {
     const { locale, onLocaleToggle, className } = this.props;
     return (
-      <Toggle value={locale} values={appLocales} messages={messages} onToggle={onLocaleToggle} className={className} />
+      <Toggle 
+        value={locale} 
+        values={appLocales} 
+        messages={messages} 
+        onToggle={onLocaleToggle} 
+        className={className} 
+      />
     );
   }
 }
