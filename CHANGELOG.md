@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 ## [?NEXT?] - ????-??-??
 
+- Corrected doc import line.
+- Using rollup-documentation.
+- Clean dependencies.
+
+## [v0.1.0] - 2018-04-20
+
 - MIT Licensing.
 
 ## [v0.0.5] - 2018-04-19
