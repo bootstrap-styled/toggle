@@ -1,3 +1,3 @@
-Create your own toggle component using our own example.
+Lean how to create your toggle component using our example.
 
-Check out [bootstrap-styled-redux](https://bootstrap-styled.kopaxgroup.com.yeutech.com/bootstrap-styled-redux) and [bootstrap-styled-saga](https://bootstrap-styled.yeutech.com/bootstrap-styled-saga) to see how to create your own toggle.
+Check out more examples with [bootstrap-styled-redux](https://bootstrap-styled.kopaxgroup.com.yeutech.com/bootstrap-styled-redux) and [bootstrap-styled-saga](https://bootstrap-styled.yeutech.com/bootstrap-styled-saga).
