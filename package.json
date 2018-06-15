@@ -267,6 +267,7 @@
   "publishConfig": {
     "tag": "latest"
   },
+  "private": false,
   "release": {
     "branch": "master",
     "success": false,
