@@ -140,7 +140,7 @@
     "@semantic-release/git": "^5.0.0",
     "@semantic-release/gitlab": "^2.1.4",
     "@semantic-release/npm": "^3.3.1",
-    "@yeutech/rollup-documentation": "^2.1.7",
+    "@yeutech/rollup-documentation": "^2.3.0",
     "babel-cli": "^6.26.0",
     "babel-eslint": "^7.2.3",
     "babel-jest": "^22.4.1",
@@ -265,7 +265,8 @@
   },
   "author": "Yeutech Company Limited <contact@yeutech.com>",
   "publishConfig": {
-    "tag": "latest"
+    "tag": "latest",
+    "registry": "https://registry.npmjs.org"
   },
   "private": false,
   "release": {
