@@ -1,3 +1,11 @@
+## [1.0.1](https://module.kopaxgroup.com/bootstrap-styled/bootstrap-styled-toggle/compare/v1.0.0...v1.0.1) (2018-06-15)
+
+
+### Bug Fixes
+
+* **doc:** badge ([88ca1e4](https://module.kopaxgroup.com/bootstrap-styled/bootstrap-styled-toggle/commit/88ca1e4))
+* **doc:** correct text ([12d92b9](https://module.kopaxgroup.com/bootstrap-styled/bootstrap-styled-toggle/commit/12d92b9))
+
 # 1.0.0 (2018-06-15)
 
 
