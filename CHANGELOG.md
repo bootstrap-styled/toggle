@@ -1,3 +1,10 @@
+## [1.0.2](https://module.kopaxgroup.com/bootstrap-styled/bootstrap-styled-toggle/compare/v1.0.1...v1.0.2) (2018-06-15)
+
+
+### Bug Fixes
+
+* **doc:** upgrade [@yeutech](https://module.kopaxgroup.com/yeutech)/rollup-documentation to 2.3.0 ([22963f6](https://module.kopaxgroup.com/bootstrap-styled/bootstrap-styled-toggle/commit/22963f6))
+
 ## [1.0.1](https://module.kopaxgroup.com/bootstrap-styled/bootstrap-styled-toggle/compare/v1.0.0...v1.0.1) (2018-06-15)
 
 
