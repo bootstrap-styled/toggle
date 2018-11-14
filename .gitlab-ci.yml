@@ -77,7 +77,7 @@ test:
 release:
   stage: release
   script:
-    - npx -p rollup-umd-scripts scripts-ci release
+    - npx -p rollup-umd-scripts scripts-ci release --debug
   dependencies:
     - build
   only:
