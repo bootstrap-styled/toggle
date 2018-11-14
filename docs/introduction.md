@@ -1,10 +1,3 @@
-[![build status]($CI_PROJECT_URL/badges/v$PACKAGE_VERSION/build.svg)]($CI_PROJECT_URL/commits/v$PACKAGE_VERSION)
-[![coverage report]($CI_PROJECT_URL/badges/v$PACKAGE_VERSION/coverage.svg)]($CI_PROJECT_URL/commits/v$PACKAGE_VERSION)
+[![Build Status](https://travis-ci.org/bootstrap-styled/toggle.svg?branch=master)](https://travis-ci.org/bootstrap-styled/toggle) [![npm Version](https://img.shields.io/npm/v/@bootstrap-styled/toggle.svg?style=flat)](https://www.npmjs.com/package/@bootstrap-styled/toggle) [![License](https://img.shields.io/npm/l/@bootstrap-styled/toggle.svg?style=flat)](https://www.npmjs.com/package/@bootstrap-styled/toggle) [![npm Version](https://img.shields.io/node/v/@bootstrap-styled/toggle.svg?style=flat)](https://www.npmjs.com/package/@bootstrap-styled/toggle) [![Module formats](https://img.shields.io/badge/module%20formats-umd%2C%20cjs%2C%20esm-green.svg?style=flat)](https://www.npmjs.com/package/@bootstrap-styled/toggle)
 
-![image](https://img.shields.io/badge/version-$PACKAGE_VERSION-green.svg)
-![image](https://img.shields.io/badge/node-$NODE_VERSION-brightgreen.svg)
-![image](https://img.shields.io/badge/npm-$NPM_VERSION-red.svg)
-![image](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
-![image]($IMG_SHIELD_PUBLISHING)
-
-$PACKAGE_NAME provide a select component to display your option.
+Toggle option made with bootstrap and optionaly use react-intl or any other ui component

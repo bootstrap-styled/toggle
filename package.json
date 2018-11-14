@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "jsnext:main": "dist/@bootstrap-styled/toggle.es.js",
   "module": "dist/@bootstrap-styled/toggle.es.js",
-  "homepage": "https://bootstrap-styled.yeutech.com/bootstrap-styled-toggle",
+  "homepage": "https://bootstrap-styled.github.io/toggle",
   "browserslist": [
     "IE >= 9",
     "last 2 versions"
@@ -31,15 +31,14 @@
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build",
     "extract-intl": "npx @rollup-umd/intl intl extract",
-    "extract-intl:doc": "npx @rollup-umd/documentation-cli intl",
-    "postinstall": "node -e \"console.log('\\u001b[31m@bootstrap-styled/toggle is deprecated, use @bootstrap-styled/toggle instead.')\" || exit 0"
+    "extract-intl:doc": "npx @rollup-umd/documentation-cli intl"
   },
   "repository": {
     "type": "git",
-    "url": "https://module.kopaxgroup.com/bootstrap-styled/bootstrap-styled-toggle.git"
+    "url": "https://github.com/bootstrap-styled/toggle.git"
   },
   "bugs": {
-    "url": "https://module.kopaxgroup.com/bootstrap-styled/bootstrap-styled-toggle/issues"
+    "url": "https://github.com/bootstrap-styled/toggle/issues"
   },
   "files": [
     "LICENSE.md",
@@ -137,9 +136,8 @@
   },
   "devDependencies": {
     "@semantic-release/changelog": "^2.0.2",
-    "@semantic-release/exec": "^2.2.4",
     "@semantic-release/git": "^5.0.0",
-    "@semantic-release/gitlab": "^2.1.4",
+    "@semantic-release/github": "^5.2.1",
     "@semantic-release/npm": "^3.3.1",
     "@yeutech-lab/rollup-umd-documentation": "^2.4.4",
     "babel-cli": "^6.26.0",
@@ -267,32 +265,20 @@
   },
   "author": "Yeutech Company Limited <contact@yeutech.com>",
   "publishConfig": {
-    "registry": "https://npm.kopaxgroup.com",
-    "tag": "latest"
+    "registry": "https://registry.npmjs.org",
+    "tag": "latest",
+    "access": "public"
   },
   "release": {
     "branch": "master",
-    "success": false,
-    "fail": false,
     "npmPublish": true,
     "verifyConditions": [
-      {
-        "path": "@semantic-release/exec",
-        "cmd": "npx @yeutech/rollup-umd-ci-release-transitive verify"
-      },
       "@semantic-release/changelog",
       "@semantic-release/npm",
       "@semantic-release/git",
-      {
-        "path": "@semantic-release/gitlab",
-        "gitlabUrl": "https://module.kopaxgroup.com"
-      }
+      "@semantic-release/github"
     ],
     "prepare": [
-      {
-        "path": "@semantic-release/exec",
-        "cmd": "npx @yeutech/rollup-umd-ci-release-transitive prepare"
-      },
       "@semantic-release/changelog",
       "@semantic-release/npm",
       {
@@ -314,37 +300,55 @@
         "cmd": "echo ${nextRelease.version} > ~/release_version"
       },
       {
-        "path": "@semantic-release/gitlab",
-        "gitlabUrl": "https://module.kopaxgroup.com"
-      },
-      {
-        "path": "@semantic-release/exec",
-        "cmd": "npx @yeutech/rollup-umd-ci-release-transitive publish ${nextRelease.version}"
+        "path": "@semantic-release/github",
+        "assets": [
+          {
+            "path": "package.json"
+          },
+          {
+            "path": "LICENSE.md"
+          },
+          {
+            "path": "CHANGELOG.md"
+          },
+          {
+            "path": "README.md"
+          },
+          {
+            "path": "dist/*.esm.js",
+            "label": "ES module"
+          },
+          {
+            "path": "dist/*.esm.js.map",
+            "label": "ES module source map"
+          },
+          {
+            "path": "dist/*.min.js",
+            "label": "UMD compressed"
+          },
+          {
+            "path": "dist/*.min.js.map",
+            "label": "UMD compressed source map"
+          },
+          {
+            "path": "dist/*.cjs.min.js",
+            "label": "CJS compressed"
+          },
+          {
+            "path": "dist/*.cjs.min.js.map",
+            "label": "CJS compressed source map"
+          },
+          {
+            "path": "lib/*.js",
+            "label": "CJS folder"
+          }
+        ]
       }
     ]
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
-  "transitive": {
-    "name": "toggle",
-    "scope": "bootstrap-styled",
-    "scopedName": "@bootstrap-styled/toggle",
-    "jsnext:main": "dist/@bootstrap-styled/toggle.es.js",
-    "module": "dist/@bootstrap-styled/toggle.es.js",
-    "homepage": "https://bootstrap-styled.github.io/toggle",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/bootstrap-styled/toggle.git"
-    },
-    "bugs": {
-      "url": "https://github.com/bootstrap-styled/toggle/issues"
-    },
-    "publishConfig": {
-      "access": "public",
-      "registry": "https://registry.npmjs.org"
     }
   },
   "declinationId": "react-intl"
