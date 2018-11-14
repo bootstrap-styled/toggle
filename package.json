@@ -1,6 +1,6 @@
 {
   "name": "@bootstrap-styled/toggle",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Toggle option made with bootstrap and optionaly use react-intl or any other ui component",
   "main": "lib/index.js",
   "jsnext:main": "dist/@bootstrap-styled/toggle.es.js",
@@ -31,7 +31,8 @@
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build",
     "extract-intl": "npx @rollup-umd/intl intl extract",
-    "extract-intl:doc": "npx @rollup-umd/documentation-cli intl"
+    "extract-intl:doc": "npx @rollup-umd/documentation-cli intl",
+    "postinstall": "node -e \"console.log('\\u001b[31m@bootstrap-styled/toggle is deprecated, use @bootstrap-styled/toggle instead.')\" || exit 0"
   },
   "repository": {
     "type": "git",

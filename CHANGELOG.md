@@ -1,3 +1,10 @@
+## [1.0.5](https://module.kopaxgroup.com/bootstrap-styled/bootstrap-styled-toggle/compare/v1.0.4...v1.0.5) (2018-11-14)
+
+
+### Bug Fixes
+
+* **transitive:** fix transitive release ([a634f4e](https://module.kopaxgroup.com/bootstrap-styled/bootstrap-styled-toggle/commit/a634f4e))
+
 ## [1.0.4](https://module.kopaxgroup.com/bootstrap-styled/bootstrap-styled-toggle/compare/v1.0.3...v1.0.4) (2018-11-14)
 
 
