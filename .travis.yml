@@ -71,6 +71,7 @@ jobs:
         - 'lts/*'
       script:
         - git fetch --tags
+        - git reset HEAD --hard
         - git checkout refs/tags/$(git describe --tags `git rev-list --tags --max-count=1`)
         - npm install
         - chmod +x styleguide/prepare.sh
