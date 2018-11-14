@@ -140,7 +140,7 @@
     "@semantic-release/git": "^5.0.0",
     "@semantic-release/gitlab": "^2.1.4",
     "@semantic-release/npm": "^3.3.1",
-    "@yeutech-lab/rollup-umd-documentation": "^2.4.2",
+    "@yeutech-lab/rollup-umd-documentation": "^2.4.4",
     "babel-cli": "^6.26.0",
     "babel-eslint": "^7.2.3",
     "babel-jest": "^22.4.1",
@@ -181,7 +181,7 @@
     "pre-commit": "^1.2.2",
     "raf": "^3.4.0",
     "react": "^16.3.2",
-    "react-intl": "^2.4.0",
+    "react-intl": "^2.7.2",
     "react-redux": "^5.1.1",
     "react-styleguidist": "^8.0.4",
     "react-test-renderer": "^16.3.2",
@@ -217,7 +217,7 @@
     "extract-intl:doc"
   ],
   "dependencies": {
-    "@bootstrap-styled/v4": "^1.1.6",
+    "@bootstrap-styled/v4": "^1.2.2",
     "prop-types": "^15.6.1"
   },
   "peerDependencies": {
