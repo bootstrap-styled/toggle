@@ -1,3 +1,10 @@
+## [1.0.4](https://module.kopaxgroup.com/bootstrap-styled/bootstrap-styled-toggle/compare/v1.0.3...v1.0.4) (2018-11-14)
+
+
+### Bug Fixes
+
+* **publish:** public ([0e303e5](https://module.kopaxgroup.com/bootstrap-styled/bootstrap-styled-toggle/commit/0e303e5))
+
 ## [1.0.3](https://module.kopaxgroup.com/bootstrap-styled/bootstrap-styled-toggle/compare/v1.0.2...v1.0.3) (2018-11-14)
 
 
