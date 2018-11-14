@@ -7,6 +7,10 @@
   ],
   "sections": [
     {
+      "name": "Translation",
+      "content": "docs/translation.md"
+    },
+    {
       "name": "Introduction",
       "content": "docs/introduction.md"
     },

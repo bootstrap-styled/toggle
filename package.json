@@ -31,7 +31,7 @@
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build",
     "extract-intl": "npx @rollup-umd/intl intl extract",
-    "extract-intl:doc": "npx rollup-umd-scripts doc intl"
+    "extract-intl:doc": "npx @rollup-umd/documentation-cli intl"
   },
   "repository": {
     "type": "git",
