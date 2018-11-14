@@ -266,10 +266,9 @@
   },
   "author": "Yeutech Company Limited <contact@yeutech.com>",
   "publishConfig": {
-    "tag": "latest",
-    "registry": "https://registry.npmjs.org"
+    "registry": "https://npm.kopaxgroup.com",
+    "tag": "latest"
   },
-  "private": false,
   "release": {
     "branch": "master",
     "success": false,
