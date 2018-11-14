@@ -7,6 +7,10 @@
   ],
   "sections": [
     {
+      "name": "Translation",
+      "content": "docs/translation.md"
+    },
+    {
       "name": "Introduction",
       "content": "docs/introduction.md"
     },
@@ -24,20 +28,12 @@
       "components": "src/components/**/*.js"
     },
     {
-      "name": "FAQ",
-      "content": "docs/faq.md"
-    },
-    {
       "name": "Contribute",
       "content": "docs/contribute.md",
       "sections": [
         {
           "name": "Commands",
           "content": "docs/commands.md"
-        },
-        {
-          "name": "Branches",
-          "content": "docs/branches.md"
         },
         {
           "name": "Release",

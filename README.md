@@ -1,6 +1,6 @@
-# bootstrap-styled-toggle
+# @bootstrap-styled/toggle
 
-bootstrap-styled-toggle npm package.
+@bootstrap-styled/toggle npm package.
 
 **Master**
 

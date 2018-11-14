@@ -31,7 +31,7 @@ You can read more about it here [https://docs.npmjs.com/cli/shrinkwrap][1]
 This is how you use it:
 
 ```js
-const { Form } = require('bootstrap-styled/lib');
+const Form = require('@bootstrap-styled/v4/lib/Form');
 initialState = {
   value: 'en',  
 };
@@ -47,7 +47,7 @@ initialState = {
 ### Usage with `react-intl`
 
 ```js
-const { Form } = require('bootstrap-styled/lib');
+const Form = require('@bootstrap-styled/v4/lib/Form');
 const { defineMessages, IntlProvider } = require('react-intl');
 const messages = defineMessages({
   fr: {
@@ -81,7 +81,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
-import Toggle from 'bootstrap-styled-toggle';
+import Toggle from '$PACKAGE_NAME';
 import { changeLocale as changeLocaleAction } from './localeActions';
 import messages from './messages';
 import { appLocales } from './i18n';

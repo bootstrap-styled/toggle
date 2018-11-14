@@ -1,10 +1,10 @@
 {
-  "name": "bootstrap-styled-toggle",
-  "version": "1.0.2",
+  "name": "@bootstrap-styled/toggle",
+  "version": "0.0.0-development",
   "description": "Toggle option made with bootstrap and optionaly use react-intl or any other ui component",
   "main": "lib/index.js",
-  "jsnext:main": "dist/bootstrap-styled-toggle.es.js",
-  "module": "dist/bootstrap-styled-toggle.es.js",
+  "jsnext:main": "dist/@bootstrap-styled/toggle.es.js",
+  "module": "dist/@bootstrap-styled/toggle.es.js",
   "homepage": "https://bootstrap-styled.yeutech.com/bootstrap-styled-toggle",
   "browserslist": [
     "IE >= 9",
@@ -30,8 +30,8 @@
     "lint-staged": "lint-staged",
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build",
-    "extract-intl": "NODE_ENV=production npx rollup-umd-scripts intl extract",
-    "extract-intl:doc": "NODE_ENV=production npx rollup-umd-scripts doc intl"
+    "extract-intl": "npx @rollup-umd/intl intl extract",
+    "extract-intl:doc": "npx @rollup-umd/documentation-cli intl"
   },
   "repository": {
     "type": "git",
@@ -140,7 +140,7 @@
     "@semantic-release/git": "^5.0.0",
     "@semantic-release/gitlab": "^2.1.4",
     "@semantic-release/npm": "^3.3.1",
-    "@yeutech/rollup-documentation": "^2.3.0",
+    "@yeutech-lab/rollup-umd-documentation": "^2.4.4",
     "babel-cli": "^6.26.0",
     "babel-eslint": "^7.2.3",
     "babel-jest": "^22.4.1",
@@ -181,12 +181,11 @@
     "pre-commit": "^1.2.2",
     "raf": "^3.4.0",
     "react": "^16.3.2",
-    "react-intl": "^2.4.0",
-    "react-redux": "^5.0.7",
-    "react-styleguidist": "^7.0.9",
+    "react-intl": "^2.7.2",
+    "react-redux": "^5.1.1",
+    "react-styleguidist": "^8.0.4",
     "react-test-renderer": "^16.3.2",
-    "styled-components": "^3.3.2",
-    "redux": "^4.0.0",
+    "redux": "^4.0.1",
     "rollup": "^0.57.1",
     "rollup-plugin-babel": "^3.0.3",
     "rollup-plugin-cleanup": "^2.0.0",
@@ -201,8 +200,9 @@
     "rollup-watch": "^4.3.1",
     "semantic-release": "^15.5.2",
     "sinon": "^2.3.2",
-    "toctoc": "^0.3.0",
-    "webpack": "^4.6.0"
+    "styled-components": "^4.1.1",
+    "toctoc": "^0.3.2",
+    "webpack": "^4.16.1"
   },
   "lint-staged": {
     "*.js": [
@@ -217,16 +217,17 @@
     "extract-intl:doc"
   ],
   "dependencies": {
-    "prop-types": "^15.6.1",
-    "bootstrap-styled": "^1.6.5"
+    "@bootstrap-styled/v4": "^1.2.2",
+    "prop-types": "^15.6.1"
   },
   "peerDependencies": {
     "react": "^16.3.2",
-    "styled-components": "^3.3.2",
-    "redux": "^4.0.0",
-    "react-redux": "^5.0.7"
+    "styled-components": "^4.1.1",
+    "redux": "^4.0.1",
+    "react-redux": "^5.1.1"
   },
   "jest": {
+    "testURL": "http://localhost",
     "roots": [
       "<rootDir>/src/"
     ],
@@ -314,5 +315,25 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "transitive": {
+    "name": "toggle",
+    "scope": "bootstrap-styled",
+    "scopedName": "@bootstrap-styled/toggle",
+    "jsnext:main": "dist/@bootstrap-styled/toggle.es.js",
+    "module": "dist/@bootstrap-styled/toggle.es.js",
+    "homepage": "https://bootstrap-styled.github.io/toggle",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/bootstrap-styled/toggle.git"
+    },
+    "bugs": {
+      "url": "https://github.com/bootstrap-styled/toggle/issues"
+    },
+    "publishConfig": {
+      "access": "public",
+      "registry": "https://registry.npmjs.org"
+    }
+  },
+  "declinationId": "react-intl"
 }

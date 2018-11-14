@@ -2,7 +2,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { IntlProvider, defineMessages } from 'react-intl';
-import Option from 'bootstrap-styled/lib/Option';
+import Option from '@bootstrap-styled/v4/lib/Option';
 
 import Toggle from '../index';
 

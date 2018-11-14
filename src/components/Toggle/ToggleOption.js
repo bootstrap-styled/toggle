@@ -6,7 +6,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import Option from 'bootstrap-styled/lib/Option';
+import Option from '@bootstrap-styled/v4/lib/Option';
 
 let injectIntl;
 let intlShape;
@@ -49,6 +49,7 @@ ToggleOption.propTypes = {
     PropTypes.string,
     PropTypes.element,
     PropTypes.func,
+    PropTypes.object,
   ]),
   /**
    * The value
