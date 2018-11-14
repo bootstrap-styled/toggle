@@ -327,24 +327,5 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "transitive": {
-    "name": "toggle",
-    "scope": "bootstrap-styled",
-    "scopedName": "@bootstrap-styled/toggle",
-    "jsnext:main": "dist/@bootstrap-styled/toggle.es.js",
-    "module": "dist/@bootstrap-styled/toggle.es.js",
-    "homepage": "https://bootstrap-styled.github.io/toggle",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/bootstrap-styled/toggle.git"
-    },
-    "bugs": {
-      "url": "https://github.com/bootstrap-styled/toggle/issues"
-    },
-    "publishConfig": {
-      "access": "public",
-      "registry": "https://registry.npmjs.org"
-    }
-  },
   "declinationId": "react-intl"
 }
