@@ -1,3 +1,14 @@
+## [1.0.3](https://module.kopaxgroup.com/bootstrap-styled/bootstrap-styled-toggle/compare/v1.0.2...v1.0.3) (2018-11-14)
+
+
+### Bug Fixes
+
+* **dependencies:** Update many dependencies ([5ede9b5](https://module.kopaxgroup.com/bootstrap-styled/bootstrap-styled-toggle/commit/5ede9b5))
+* **publish:** set to public ([62dd344](https://module.kopaxgroup.com/bootstrap-styled/bootstrap-styled-toggle/commit/62dd344))
+* **publish:** set to public ([c8364ac](https://module.kopaxgroup.com/bootstrap-styled/bootstrap-styled-toggle/commit/c8364ac))
+* **publish:** set to public, migrate to latest bs versions ([d7860f1](https://module.kopaxgroup.com/bootstrap-styled/bootstrap-styled-toggle/commit/d7860f1))
+* **release:** added --debug to release ([237475e](https://module.kopaxgroup.com/bootstrap-styled/bootstrap-styled-toggle/commit/237475e))
+
 ## [1.0.2](https://module.kopaxgroup.com/bootstrap-styled/bootstrap-styled-toggle/compare/v1.0.1...v1.0.2) (2018-06-15)
 
 
