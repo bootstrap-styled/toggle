@@ -30,8 +30,8 @@
     "lint-staged": "lint-staged",
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build",
-    "extract-intl": "NODE_ENV=production npx rollup-umd-scripts intl extract",
-    "extract-intl:doc": "NODE_ENV=production npx rollup-umd-scripts doc intl"
+    "extract-intl": "npx @rollup-umd/intl intl extract",
+    "extract-intl:doc": "npx rollup-umd-scripts doc intl"
   },
   "repository": {
     "type": "git",
@@ -201,8 +201,8 @@
     "semantic-release": "^15.5.2",
     "sinon": "^2.3.2",
     "styled-components": "^4.1.1",
-    "toctoc": "^0.3.0",
-    "webpack": "^4.6.0"
+    "toctoc": "^0.3.2",
+    "webpack": "^4.16.1"
   },
   "lint-staged": {
     "*.js": [
@@ -334,5 +334,6 @@
       "access": "public",
       "registry": "https://registry.npmjs.org"
     }
-  }
+  },
+  "declinationId": "react-intl"
 }

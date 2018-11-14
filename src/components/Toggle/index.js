@@ -40,11 +40,21 @@ Toggle.propTypes = {
   /**
    * Replace the default component tag by the one specified. Can be:
    */
-  tag: PropTypes.any,
+  tag: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.element,
+    PropTypes.object,
+    PropTypes.func,
+  ]),
   /**
    * Replace the option component tag by the one specified. Can be:
    */
-  optionTag: PropTypes.any,
+  optionTag: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.element,
+    PropTypes.object,
+    PropTypes.func,
+  ]),
   /**
    * Trigger when toggle
    */
