@@ -6,7 +6,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import Option from 'bootstrap-styled/lib/Option';
+import Option from '@bootstrap-styled/v4/lib/Option';
 
 let injectIntl;
 let intlShape;
@@ -45,11 +45,7 @@ ToggleOption.propTypes = {
   /**
    * Replace the default component tag by the one specified. Can be:
    */
-  tag: PropTypes.oneOfType([
-    PropTypes.string,
-    PropTypes.element,
-    PropTypes.func,
-  ]),
+  tag: PropTypes.any,
   /**
    * The value
    */
