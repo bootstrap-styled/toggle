@@ -3,7 +3,7 @@
 You will need to install without the optional dependencies.
 
 ```bash
-$ npm install $PACAKAGE_NAME --no-optional
+$ npm install $PACKAGE_NAME --no-optional
 ``` 
  
 Test to see if everything works. 

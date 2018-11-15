@@ -7,10 +7,6 @@
   ],
   "sections": [
     {
-      "name": "Translation",
-      "content": "docs/translation.md"
-    },
-    {
       "name": "Introduction",
       "content": "docs/introduction.md"
     },
@@ -40,7 +36,15 @@
           "content": "docs/release.md"
         }
       ]
-    }
+    },
+    {
+      "name": "Internationalization",
+      "description": " It can be use with `react-intl` for translating messages."
+    },
+    {
+      "name": "Translation",
+      "content": "docs/translation.md"
+    },
   ],
   "ribbon": {
     "url": "",
