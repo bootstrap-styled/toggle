@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/bootstrap-styled/toggle/compare/v1.0.7...v1.0.8) (2018-11-15)
+
+
+### Bug Fixes
+
+* **doc:** fix documentation not starting with introduction ([2300fa1](https://github.com/bootstrap-styled/toggle/commit/2300fa1))
+
 ## [1.0.7](https://github.com/bootstrap-styled/toggle/compare/v1.0.6...v1.0.7) (2018-11-14)
 
 
