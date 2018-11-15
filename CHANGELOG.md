@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/bootstrap-styled/toggle/compare/v1.0.8...v1.0.9) (2018-11-15)
+
+
+### Bug Fixes
+
+* **doc:** fixing documentation ([03e8996](https://github.com/bootstrap-styled/toggle/commit/03e8996))
+
 ## [1.0.8](https://github.com/bootstrap-styled/toggle/compare/v1.0.7...v1.0.8) (2018-11-15)
 
 
