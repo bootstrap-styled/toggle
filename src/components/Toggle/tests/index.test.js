@@ -33,4 +33,8 @@ describe('<Toggle />', () => {
     expect(renderedComponent.contains(<Option>--</Option>)).toBe(true);
     expect(renderedComponent.find('Option').length).toBe(1);
   });
+  it('should have ToggleOptions if props.values is defined', () => {
+    const renderedComponent = shallow(<Toggle value="a" values={['a', 'b']} />);
+    expect(renderedComponent.find('InjectIntl(ToggleOption)').length).toBe(2);
+  });
 });

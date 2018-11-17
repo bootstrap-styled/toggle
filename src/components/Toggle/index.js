@@ -11,18 +11,30 @@ import Input from '@bootstrap-styled/v4/lib/Input';
 import ToggleOption from './ToggleOption';
 
 function Toggle(props) {
-  const { tag: Tag, optionTag: OptionTag, defaultLabel } = props;
-  let content = (<Option>{defaultLabel}</Option>);
-
+  const {
+    tag: Tag,
+    optionTag: OptionTag,
+    defaultLabel,
+    className,
+    onToggle,
+    value,
+    values,
+    messages,
+    ...rest
+  } = props;
   // If we have items, render them
-  if (props.values) {
-    content = props.values.map((value) => (
-      <OptionTag key={value} value={value} message={props.messages[value]} />
-    ));
-  }
-
+  const content = !values.length ? <Option>{defaultLabel}</Option> : values.map((v) => (
+    <OptionTag key={v} value={v} message={messages[v]} />
+  ));
   return (
-    <Tag type="select" name="select" value={props.value} onChange={props.onToggle} className={props.className}>
+    <Tag
+      type="select"
+      name="select"
+      value={value}
+      onChange={onToggle}
+      className={className}
+      {...rest}
+    >
       {content}
     </Tag>
   );
@@ -33,6 +45,9 @@ Toggle.defaultProps = {
   optionTag: ToggleOption,
   defaultLabel: '--',
   messages: {},
+  value: '',
+  values: [],
+  onToggle: () => {},
 };
 
 /* eslint-disable react/require-default-props */

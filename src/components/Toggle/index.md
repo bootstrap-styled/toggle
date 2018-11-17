@@ -22,7 +22,7 @@ That will lock down the dependencies for the packages.
 
 That way npm install will look into npm-shrinkwrap.json before trying to install dependencies.
 
-You can read more about it here [https://docs.npmjs.com/cli/shrinkwrap][1]
+You can read more about it here https://docs.npmjs.com/cli/shrinkwrap
 
 
   [1]: https://docs.npmjs.com/cli/shrinkwrap
