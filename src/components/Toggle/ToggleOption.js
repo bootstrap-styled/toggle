@@ -13,9 +13,9 @@ let intlShape;
 
 // this make react-intl optional to our component and our module
 try {
-  const reactIntl = require('react-intl'); // eslint-disable-line
-  injectIntl = reactIntl.injectIntl; // eslint-disable-line
-  intlShape = reactIntl.intlShape; // eslint-disable-line
+  const { injectIntl: injectIntlDefault, intlShape: intlShapeDefault } = require('react-intl'); // eslint-disable-line
+  injectIntl = injectIntlDefault; // eslint-disable-line
+  intlShape = intlShapeDefault; // eslint-disable-line
 } catch (er) {
   injectIntl = null;
   intlShape = null;
@@ -30,8 +30,9 @@ const ToggleOption = ({
   value,
   message,
   intl,
+  ...rest
 }) => (
-  <Tag value={value}>
+  <Tag value={value} {...rest}>
     {message && intl ? intl.formatMessage(message) : value}
   </Tag>
 );
