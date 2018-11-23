@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/bootstrap-styled/toggle/compare/v1.0.10...v1.1.0) (2018-11-23)
+
+
+### Features
+
+* **babel:** upgrade to babel 7 and update [@bootstrap-styled](https://github.com/bootstrap-styled)/v4 ([6315aa4](https://github.com/bootstrap-styled/toggle/commit/6315aa4))
+
 ## [1.0.10](https://github.com/bootstrap-styled/toggle/compare/v1.0.9...v1.0.10) (2018-11-17)
 
 
