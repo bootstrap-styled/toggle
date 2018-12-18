@@ -217,7 +217,7 @@
     "extract-intl:doc"
   ],
   "dependencies": {
-    "@bootstrap-styled/v4": "^1.3.0",
+    "@bootstrap-styled/v4": "^2.0.0",
     "prop-types": "^15.6.2"
   },
   "peerDependencies": {
