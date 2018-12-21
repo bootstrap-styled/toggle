@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/bootstrap-styled/toggle/compare/v1.2.1...v1.2.2) (2018-12-21)
+
+
+### Bug Fixes
+
+* **dependencies:** upgrade all dependencies ([c44f9ee](https://github.com/bootstrap-styled/toggle/commit/c44f9ee))
+
 ## [1.2.1](https://github.com/bootstrap-styled/toggle/compare/v1.2.0...v1.2.1) (2018-12-19)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@bootstrap-styled/toggle",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Toggle option made with bootstrap and optionaly use react-intl or any other ui component",
   "main": "lib/index.js",
   "jsnext:main": "dist/@bootstrap-styled/toggle.es.js",
