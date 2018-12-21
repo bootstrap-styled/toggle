@@ -31,6 +31,7 @@ describe('<Toggle />', () => {
   it('should not have ToggleOptions if props.values is not defined', () => {
     const renderedComponent = shallow(<Toggle />);
     expect(renderedComponent.contains(<Option>--</Option>)).toBe(true);
+    console.log(renderedComponent.debug());
     expect(renderedComponent.find('Option').length).toBe(1);
   });
   it('should have ToggleOptions if props.values is defined', () => {
