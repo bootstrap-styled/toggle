@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/bootstrap-styled/toggle/compare/v1.2.2...v1.2.3) (2019-02-05)
+
+
+### Bug Fixes
+
+* **package:** update [@bootstrap-styled](https://github.com/bootstrap-styled)/v4 to version 3.0.4 ([854baac](https://github.com/bootstrap-styled/toggle/commit/854baac))
+
 ## [1.2.2](https://github.com/bootstrap-styled/toggle/compare/v1.2.1...v1.2.2) (2018-12-21)
 
 
