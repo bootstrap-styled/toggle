@@ -183,7 +183,7 @@
     "react": "^16.7.0",
     "react-intl": "^2.7.2",
     "react-redux": "^6.0.0",
-    "react-styleguidist": "^8.0.6",
+    "react-styleguidist": "^9.0.0",
     "react-test-renderer": "^16.7.0",
     "redux": "^4.0.1",
     "rollup": "^1.0.0",
