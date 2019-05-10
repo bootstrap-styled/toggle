@@ -173,7 +173,7 @@
     "eslint-plugin-react": "^7.11.1",
     "exports-loader": "^0.7.0",
     "gulp": "^4.0.0",
-    "istanbul-api": "^2.0.6",
+    "istanbul-api": "^3.0.0",
     "istanbul-reports": "^2.0.1",
     "jest-cli": "^23.6.0",
     "jest-sonar-reporter": "^2.0.0",
